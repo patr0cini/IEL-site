@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+title: ""
+description: "Uma comunidade de famílias firmada no Evangelho, na vila do Livramento. Celebração todos os domingos às 10:30."
+---
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero__content">
+    <p class="hero__eyebrow">Igreja Evangélica de Livramento</p>
+    <h1 class="hero__title" id="hero-title">{{ site.tagline }}</h1>
+    <p class="hero__lead">Queremos conhecer Deus e fazê-Lo conhecido.</p>
+    <div class="hero__actions"><a class="btn btn--light" href="/quem-somos/sobre/">Conheça-nos</a><a class="btn btn--light" href="#horarios">Ver horários</a></div>
+  </div>
+</section>
+
+<section class="section" id="horarios" aria-labelledby="horarios-title">
+  <div class="container">
+    <p class="section__eyebrow">Junte-se a nós</p>
+    <h2 id="horarios-title">Horários</h2>
+    <div class="schedule-grid">
+      {% for event in site.schedule %}
+      <article class="schedule-card"><h3>{{ event.title }}</h3><p class="schedule-card__when">{{ event.when }}</p>{% if event.note %}<p class="schedule-card__note">{{ event.note }}</p>{% endif %}</article>
+      {% endfor %}
+    </div>
+    <a class="btn btn--primary" href="/onde-estamos/">Como chegar</a>
+  </div>
+</section>
+
+<section class="section section--alt" aria-labelledby="identidade-title">
+  <div class="container manifesto">
+    <p class="section__eyebrow">Em que acreditamos</p>
+    <h2 id="identidade-title" class="visually-hidden">Em que acreditamos</h2>
+    <blockquote>Somos uma igreja cristã localizada na vila do Livramento. Procuramos <strong>edificar famílias na Palavra de Deus</strong>, com suporte na oração, através do serviço.</blockquote>
+    <a class="btn btn--primary" href="/quem-somos/no-que-cremos/">No que cremos</a>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="ministerios-title">
+  <div class="container">
+    <p class="section__eyebrow">Crescemos juntos</p>
+    <h2 id="ministerios-title">Ministérios</h2>
+    <p class="section__intro">Há espaço para aprender, servir e construir relacionamentos na comunidade.</p>
+    <div class="card-grid">
+      <article class="card"><div class="card__media"><img src="/assets/img/placeholder-ministry.svg" alt="Fotografia da Escola Bíblica Dominical por adicionar"></div><div class="card__body"><h3><a href="/quem-somos/ministerios/escola-biblica-dominical/">Escola Bíblica Dominical</a></h3><p>Um tempo de ensino bíblico para crianças, jovens e adultos.</p><p class="card__meta">Domingos às 10:30*</p></div></article>
+      <article class="card"><div class="card__media"><img src="/assets/img/placeholder-ministry.svg" alt="Fotografia dos Pequenos Grupos por adicionar"></div><div class="card__body"><h3><a href="/quem-somos/ministerios/pequenos-grupos/">Pequenos Grupos</a></h3><p>Encontros em grupos mais pequenos para comunhão, oração e crescimento.</p><p class="card__meta">Informação em breve</p></div></article>
+      <article class="card"><div class="card__media"><img src="/assets/img/placeholder-ministry.svg" alt="Fotografia do ministério ABCD por adicionar"></div><div class="card__body"><h3><a href="/quem-somos/ministerios/abcd/">ABCD</a></h3><p>Um ministério da igreja. Em breve partilharemos mais informação.</p><p class="card__meta">Informação em breve</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" aria-labelledby="historia-title">
+  <div class="container history-split"><div><p class="history-split__year"><small>Ao serviço da comunidade</small>Desde 1970</p></div><div><p class="section__eyebrow">A nossa história</p><h2 id="historia-title">Uma igreja na Azueira e para a Azueira.</h2><p>Há mais de cinco décadas procuramos anunciar o Evangelho, servir a comunidade e ser um testemunho vivo da esperança cristã.</p><a class="btn btn--light" href="/quem-somos/historia/">Conheça a nossa história</a></div></div>
+</section>

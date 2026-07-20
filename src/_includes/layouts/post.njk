@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+---
+<header class="page-header">
+  <div class="container prose">
+    <p class="eyebrow">Blog{% if date %} · {{ date | dateDisplay }}{% endif %}</p>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="lead">{{ description }}</p>{% endif %}
+  </div>
+</header>
+<article class="page-body container prose">{{ content | safe }}</article>

@@ -1,0 +1,14 @@
+{
+  "name": "iel-site",
+  "version": "1.0.0",
+  "description": "Site da Igreja Evangélica de Livramento",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

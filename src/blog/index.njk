@@ -1,0 +1,21 @@
+---
+layout: layouts/page.njk
+title: Blog
+eyebrow: Recursos
+lead: Reflexões, notícias e recursos da nossa comunidade.
+---
+
+{% set posts = collections.posts | reverse %}
+{% if posts.length %}
+<div class="post-list">
+  {% for post in posts %}
+  <article class="post-list__item"><p class="eyebrow">{{ post.date | dateDisplay }}</p><h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>{% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}</article>
+  {% endfor %}
+</div>
+{% else %}
+<div class="empty-state">
+  <p class="eyebrow">Em breve</p>
+  <h2>Estamos a preparar os primeiros artigos.</h2>
+  <p>Esta página está pronta para receber artigos em Markdown. Volte em breve ou acompanhe-nos no <a href="{{ site.social.facebook }}" target="_blank" rel="noopener">Facebook</a>.</p>
+</div>
+{% endif %}

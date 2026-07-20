@@ -1,0 +1,33 @@
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="/">
+      <img class="site-header__mark" src="/assets/img/logo-iel.png" width="46" height="46" alt="">
+      <span class="site-header__name">Igreja Evangélica<br>de Livramento</span>
+    </a>
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-principal">
+      <span class="nav-toggle__bar" aria-hidden="true"></span>
+      <span class="nav-toggle__label">Menu</span>
+    </button>
+    <nav class="site-nav" id="nav-principal" aria-label="Navegação principal">
+      <ul class="site-nav__list">
+        {% for item in nav %}
+        <li class="site-nav__item{% if item.children %} has-children{% endif %}">
+          {% if item.children %}
+          <button class="site-nav__link site-nav__parent" data-submenu-toggle aria-expanded="false">
+            {{ item.title }}
+            <svg class="site-nav__chevron" aria-hidden="true" width="10" height="10" viewBox="0 0 10 10"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <ul class="site-nav__submenu">
+            {% for child in item.children %}
+            <li><a class="site-nav__sublink{% if page.url == child.url %} is-active{% endif %}" href="{{ child.url }}">{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% else %}
+          <a class="site-nav__link{% if page.url == item.url %} is-active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

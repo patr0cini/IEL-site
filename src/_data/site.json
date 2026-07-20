@@ -1,0 +1,41 @@
+{
+  "name": "Igreja Evangélica de Livramento",
+  "shortName": "IE Livramento",
+  "tagline": "Uma comunidade de famílias firmada no Evangelho",
+  "description": "Igreja cristã na vila do Livramento, freguesia da Azueira (Mafra). Celebração aos domingos às 10:30. Queremos conhecer Deus e fazê-Lo conhecido.",
+  "url": "https://www.iel.pt",
+  "lang": "pt-PT",
+  "email": "info@iel.pt",
+  "phone": "961234567",
+  "phoneDisplay": "961 234 567",
+  "phoneNote": "Número a confirmar",
+  "address": {
+    "street": "Largo das Courelas 8",
+    "postal": "2665-001 Azueira",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Largo+das+Courelas+8%2C+2665-001+Azueira"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100064731006706",
+    "youtube": "https://www.youtube.com/@IELivramento"
+  },
+  "schedule": [
+    {
+      "title": "Celebração",
+      "when": "Todos os domingos às 10:30"
+    },
+    {
+      "title": "Escola Bíblica Dominical",
+      "when": "Domingos às 10:30",
+      "note": "À exceção do 1.º domingo do mês"
+    },
+    {
+      "title": "Reuniões de Oração",
+      "when": "Quartas-feiras"
+    }
+  ],
+  "values": [
+    { "group": "A Deus", "items": "Adoração · Oração · Disciplina" },
+    { "group": "Igreja", "items": "Família · Relacionamentos · Gratidão" },
+    { "group": "Comunidade", "items": "Serviço · Missão · Generosidade" }
+  ]
+}

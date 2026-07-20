@@ -1,0 +1,31 @@
+[
+  { "title": "Home", "url": "/" },
+  {
+    "title": "Quem Somos",
+    "url": "/quem-somos/sobre/",
+    "children": [
+      { "title": "Sobre", "url": "/quem-somos/sobre/" },
+      { "title": "História", "url": "/quem-somos/historia/" },
+      { "title": "No que Cremos", "url": "/quem-somos/no-que-cremos/" },
+      { "title": "Ministérios", "url": "/quem-somos/ministerios/" }
+    ]
+  },
+  {
+    "title": "Mensagens",
+    "url": "/mensagens/youtube/",
+    "children": [
+      { "title": "YouTube", "url": "/mensagens/youtube/" },
+      { "title": "Spotify", "url": "/mensagens/spotify/" }
+    ]
+  },
+  {
+    "title": "Recursos",
+    "url": "/recursos/sugestoes-de-leitura/",
+    "children": [
+      { "title": "Sugestões de Leitura", "url": "/recursos/sugestoes-de-leitura/" },
+      { "title": "Devocional", "url": "/recursos/devocional/" },
+      { "title": "Blog", "url": "/blog/" }
+    ]
+  },
+  { "title": "Onde Estamos", "url": "/onde-estamos/" }
+]
