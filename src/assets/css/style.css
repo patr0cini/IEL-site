@@ -307,15 +307,37 @@ a:hover { color: var(--accent-dark); }
 
 .hero {
   position: relative;
+  isolation: isolate;
   min-height: min(92vh, 46rem);
   display: flex;
   align-items: center;
+  overflow: hidden;
   color: #fff;
+  /* poster: visível de imediato e enquanto o vídeo carrega */
   background:
-    linear-gradient(rgba(20, 28, 24, 0.55), rgba(20, 28, 24, 0.72)),
-    var(--hero-image, url("/assets/img/placeholder-hero.svg"));
+    var(--hero-image, url("/assets/img/hero-poster.jpg"));
   background-size: cover;
   background-position: center;
+}
+
+/* vídeo de fundo, por baixo do véu escuro */
+.hero__video {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* véu escuro que garante contraste do texto sobre imagem/vídeo */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(rgba(20, 28, 24, 0.55), rgba(20, 28, 24, 0.72));
 }
 
 .hero__content {
@@ -347,6 +369,11 @@ a:hover { color: var(--accent-dark); }
 }
 
 .hero__actions { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+
+/* quem prefere menos movimento fica só com o poster */
+@media (prefers-reduced-motion: reduce) {
+  .hero__video { display: none; }
+}
 
 /* ---------- Secções ---------- */
 

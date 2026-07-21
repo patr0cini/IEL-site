@@ -3,3 +3,8 @@ _site/
 .DS_Store
 .claude/settings.local.json
 prompt-claude-code-site-igreja.md
+
+# ficheiros originais de vídeo (demasiado grandes para o repositório;
+# a versão comprimida para o site está em src/assets/video/)
+vídeo site/
+
