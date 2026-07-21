@@ -2,280 +2,268 @@
 layout: layouts/page.njk
 title: No que Cremos
 eyebrow: Quem Somos
-lead: A nossa confissão de fé.
+lead: A nossa confissão de fé. Clique em cada ponto para ler.
 ---
 
-## ARTIGO 1 — O DEUS TRIUNO
+<div class="creed-tools">
+  <button type="button" class="creed-toggle" data-creed-toggle>Expandir tudo</button>
+</div>
 
-Deus é o único Deus vivo e verdadeiro. Ele é espírito, infinito, absoluto, perfeito e excede os limites do entendimento humano.
+<div class="creed-list">
 
-Uno e indivisível, existe eternamente em três pessoas distintas e iguais: o Pai, o Filho e o Espírito Santo, cada um totalmente divino. Essas três pessoas amam-se e glorificam-se umas às outras, desde toda a eternidade, numa comunhão perfeita.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">I.</span> As Escrituras</summary>
+<div class="creed__body">
 
-Deus existe por Si mesmo, é satisfeito em Si mesmo e nada pode impedir a concretização da Sua vontade. Deus é Todo-Poderoso, exerce soberania absoluta e reina sobre tudo o que existe, desde toda a eternidade. Tudo acontece de acordo com o conselho de sua vontade.
+A Bíblia Sagrada foi escrita por homens divinamente inspirados e é a revelação do próprio Deus ao homem. É um tesouro perfeito de instrução divina. Deus é o seu autor, a salvação é o seu fim, e a verdade, sem mistura de erro, seu assunto. Portanto, toda a Escritura é totalmente verdadeira e confiável. Revela os princípios pelos quais Deus nos julga, portanto é e continuará sendo até o fim do mundo, o verdadeiro centro da união cristã e o padrão supremo pelo qual toda conduta humana, credos e opiniões religiosas devem ser baseados. Toda a Escritura é um testemunho de Cristo, sendo Ele o próprio foco da revelação divina.
 
-Deus é perfeito em amor, em santidade e em todos os seus outros atributos, ele glorifica-se e revela a sua glória em tudo o que é e faz. Todos os seres viventes devem adorar e glorificar Deus somente.
+<p class="creed__refs">Êxodo 24:4; Deuteronômio 4:1-2; 17:19; Josué 8:34; Salmo 19:7-10; 119:11, 89, 105, 140; Isaías 34:16; 40:8; Jeremias 15:16; 36:1-32; Mateus 5:17-18; 22:29; Lucas 21:33; 24:44-46; João 5:39; 16:13-15; 17:17; Atos 2:16ss.; 17:11; Romanos 15:4; 16:25-26; 2 Timóteo 3:15-17; Hebreus 1:1-2; 4:12; 1 Pedro 1:25; 2 Pedro 1:19-21.</p>
 
-### 1.1. Deus o Pai
+</div>
+</details>
 
-**Sobre o seu ser:** O Pai é Deus desde toda a eternidade. Ele concebe todas as coisas e comunica eternamente o ser e a vida ao Filho.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">II.</span> Deus</summary>
+<div class="creed__body">
 
-**Sobre a sua obra:** Tudo o que o Pai quer e faz, Ele o faz por meio do Filho e aplica-o pelo Espírito Santo. Quando a obra da redenção estiver plenamente concluída, toda a criação lhe será de novo perfeitamente submissa.
+Só existe um e somente um Deus vivo e verdadeiro. Ele é inteligente, espiritual e um ser pessoal, o Criador, Redentor, Preservador e Rei do Universo. Deus é infinito em santidade e todas as outras perfeições. Deus é onipotente e onisciente; e sua sabedoria perfeita se estende a todas as coisas, passadas, presentes e futuras, inclusive as decisões futuras de suas criaturas livres. A Ele devemos o maior amor, reverência, e obediência. O eterno Deus triúno revela-se a Si mesmo a nós como Pai, Filho e Espírito Santo, com atributos pessoais distintos, mas sem divisão de natureza, essência ou ser.
 
-### 1.2. Deus o Filho
+### A. Deus o Pai
 
-**Sobre o seu ser:** O Filho é Deus desde toda a eternidade. O seu relacionamento com o Pai é uma filiação eterna.
+Deus como Pai reina com cuidado providencial sobre o Seu universo, Suas criaturas e o rumo da correnteza da história humana de acordo com os propósitos da Sua graça. Ele é todo poderoso, onisciente, totalmente amoroso e sábio. Deus é Pai em verdade daqueles que se tornam filhos de Deus através da fé em Jesus Cristo. Ele é paterno na Sua atitude em relação a todos os homens.
 
-**Sobre a sua obra:** Através do Filho, o Verbo de Deus, tudo foi criado e nele tudo subsiste. Ele é o Redentor da criação e o único mediador entre Deus e os homens.
+<p class="creed__refs">Gênesis 1:1; 2:7; Êxodo 3:14; 6:2-3; 15:11ss.; 20:1ss.; Levítico 22:2; Deuteronômio 6:4; 32:6; 1 Crônicas 29:10; Salmo 19:1-3; Isaías 43:3, 15; 64:8; Jeremias 10:10; 17:13; Mateus 6:9ss.; 7:11; 23:9; 28:19; Marcos 1:9-11; João 4:24; 5:26; 14:6-13; 17:1-8; Atos 1:7; Romanos 8:14-15; 1 Coríntios 8:6; Gálatas 4:6; Efésios 4:6; Colossenses 1:15; 1 Timóteo 1:17; Hebreus 11:6; 12:9; 1 Pedro 1:17; 1 João 5:7.</p>
 
-De acordo com o que havia sido anunciado por Deus nas Sagradas Escrituras, Jesus Cristo é o Filho de Deus encarnado. Concebido pelo Espírito Santo, ele nasceu de uma virgem, chamada Maria, e viveu como um verdadeiro homem, mas sem pecado. Jesus Cristo é ao mesmo tempo plenamente homem e plenamente Deus, é a revelação suprema de Deus aos homens.
+### B. Deus o Filho
 
-Por meio da sua vida perfeita e do seu ensino verdadeiro, Jesus Cristo obedeceu em tudo à vontade do Pai, até à morte na cruz, para reconciliar todas as coisas com Deus.
+Cristo é o eterno Filho de Deus. Em sua encarnação como Jesus Cristo, Ele foi concebido pelo Espírito Santo e nasceu da virgem Maria. Jesus revelou e fez a vontade de Deus perfeitamente, tomando sobre Si a natureza humana e suas demandas e necessidades e identificando-se completamente com o ser humano, mas sem pecar. Ele honrou a lei divina através de Sua obediência pessoal, e de Sua morte substitutiva na cruz. Ele providenciou para que o homem recebesse a redenção do pecado. Ele foi ressuscitado dos mortos com um corpo glorificado e apareceu aos Seus discípulos como a pessoa que estava com eles antes da crucificação. Ele ascendeu aos céus e agora está exaltado à destra de Deus onde Ele é o Único Mediador, inteiramente Deus, inteiramente homem, na Pessoa através da qual a reconciliação entre Deus e o homem é efetuada. Ele retornará em poder e glória para julgar o mundo e consumar a Sua missão redentora. Ele agora habita em todos os crentes como Senhor vivo e onipresente.
 
-Ressuscitou corporalmente no terceiro dia e apareceu a muitas testemunhas. Ele subiu ao céu e sentou-se à direita do Pai. Jesus reina e intercede pelo seu povo.
+<p class="creed__refs">Gênesis 18:1ss.; Salmo 2:7ss.; 110:1ss.; Isaías 7:14; 53; Mateus 1:18-23; 3:17; 8:29; 11:27; 14:33; 16:16, 27; 17:5; 27; 28:1-6, 19; Marcos 1:1; 3:11; Lucas 1:35; 4:41; 22:70; 24:46; João 1:1-18, 29; 10:30, 38; 11:25-27; 12:44-50; 14:7-11; 16:15-16, 28; 17:1-5, 21-22; 20:1-20, 28; Atos 1:9; 2:22-24; 7:55-56; 9:4-5, 20; Romanos 1:3-4; 3:23-26; 5:6-21; 8:1-3, 34; 10:4; 1 Coríntios 1:30; 2:2; 8:6; 15:1-8, 24-28; 2 Coríntios 5:19-21; 8:9; Gálatas 4:4-5; Efésios 1:20; 3:11; 4:7-10; Filipenses 2:5-11; Colossenses 1:13-22; 2:9; 1 Tessalonicenses 4:14-18; 1 Timóteo 2:5-6; 3:16; Tito 2:13-14; Hebreus 1:1-3; 4:14-15; 7:14-28; 9:12-15, 24-28; 12:2; 13:8; 1 Pedro 2:21-25; 3:22; 1 João 1:7-9; 3:2; 4:14-15; 5:9; 2 João 7-9; Apocalipse 1:13-16; 5:9-14; 12:10-11; 13:8; 19:16.</p>
 
-Jesus Cristo retornará de maneira gloriosa e pessoal, para reunir os seus, para julgar os vivos e os mortos, para reinar para sempre.
+### C. Deus o Espírito Santo
 
-### 1.3. Deus o Espírito Santo
+O Espírito Santo é o Espírito de Deus, inteiramente divino. Ele inspirou homens santos da antiguidade para escrever as Escrituras. Através da iluminação Ele permite ao homem entender a verdade. Ele exalta Cristo. Ele convence o homem do pecado, da justiça e do juízo. Ele atrai os homens ao Salvador e efetua a regeneração. No momento da regeneração, Ele batiza todos os crentes no Corpo de Cristo. Ele cultiva o caráter cristão, conforta os crentes, e lhes concede os dons espirituais através dos quais eles servem a Deus na Sua igreja. Ele sela o crente para o dia da redenção final. Sua presença no Cristão é a garantia de que Deus levará o crente à plenitude da estatura de Cristo. Ele esclarece e dá poder ao crente e à igreja no louvor, evangelismo e serviço.
 
-**Sobre o seu ser:** O Espírito Santo é Deus desde toda a eternidade. Ele procede do Pai e do Filho.
+<p class="creed__refs">Gênesis 1:2; Juízes 14:6; Jó 26:13; Salmo 51:11; 139:7ss.; Isaías 61:1-3; Joel 2:28-32; Mateus 1:18; 3:16; 4:1; 12:28-32; 28:19; Marcos 1:10, 12; Lucas 1:35; 4:1, 18-19; 11:13; 12:12; 24:49; João 4:24; 14:16-17, 26; 15:26; 16:7-14; Atos 1:8; 2:1-4, 38; 4:31; 5:3; 6:3; 7:55; 8:17, 39; 10:44; 13:2; 15:28; 16:6; 19:1-6; Romanos 8:9-11, 14-16, 26-27; 1 Coríntios 2:10-14; 3:16; 12:3-11, 13; Gálatas 4:6; Efésios 1:13-14; 4:30; 5:18; 1 Tessalonicenses 5:19; 1 Timóteo 3:16; 4:1; 2 Timóteo 1:14; 3:16; Hebreus 9:8, 14; 2 Pedro 1:21; 1 João 4:13; 5:6-7; Apocalipse 1:10; 22:17.</p>
 
-**Sobre a sua obra:** O Espírito Santo inspirou as Escrituras, e ajuda os crentes a entenderem o seu significado.
+</div>
+</details>
 
-O Espírito Santo sustentou o ministério terreno de Cristo e guiou os apóstolos na sua missão fundadora. De acordo com a vontade do Pai, o Espírito não fala de si mesmo, mas de Jesus Cristo.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">III.</span> O Homem</summary>
+<div class="creed__body">
 
-O Espírito Santo aplica a salvação aos crentes, une-os a Cristo e equipa-os conforme a sua vontade, para que vivam para a glória de Deus.
+O homem é criação especial de Deus, feito à Sua própria imagem. Ele os criou macho e fêmea como coroa de sua obra de criação. A dádiva do gênero, então, faz parte da bondade da criação operada por Deus. No início o homem era inocente do pecado e foi dotado de livre arbítrio pelo seu Criador. Usando sua liberdade de escolha, o homem pecou contra Deus e trouxe o pecado para a raça humana. Por meio da tentação de Satanás, o homem transgrediu a ordem de Deus e caiu da sua inocência original, pelo que a sua descendência herdou uma natureza e um ambiente inclinados ao pecado. Portanto, assim que se tornam capazes de ação moral, eles se tornam transgressores e estão sob condenação. Só a graça de Deus pode trazer o homem para a Sua santa comunhão e habilitar o homem a cumprir o propósito criativo de Deus. A natureza sagrada da importância da personalidade humana é evidente no fato de que Deus criou o homem à sua própria imagem e de que Cristo morreu pelo homem; portanto, toda pessoa de qualquer raça possui dignidade total e é merecedora de respeito e amor cristão.
 
-O Espírito foi enviado pelo Pai e pelo Filho, para assegurar a presença de Cristo na Igreja e para lhe dar o poder para a concretização do mandato missionário.
+<p class="creed__refs">Gênesis 1:26-30; 2:5, 7, 18-22; 3; 9:6; Salmo 1; 8:3-6; 32:1-5; 51:5; Isaías 6:5; Jeremias 17:5; Mateus 16:26; Atos 17:26-31; Romanos 1:19-32; 3:10-18, 23; 5:6, 12, 19; 6:6; 7:14-25; 8:14-18, 29; 1 Coríntios 1:21-31; 15:19, 21-22; Efésios 2:1-22; Colossenses 1:21-22; 3:9-11.</p>
 
-Textos de referência que subscrevemos e que são úteis a quem queira aprofundar estas noções:
+</div>
+</details>
 
-- Credo Niceno-Constantinopolitano (325 d.C., 381 d.C.), sobre a doutrina da Trindade e sobre os fundamentos da fé;
-- Definição de Calcedónia (451 d.C.), sobre a doutrina da dupla natureza de Cristo;
-- Símbolo de Atanásio (final do século IV – início do século V), fórmula detalhada sobre a doutrina da Trindade e a obra de Cristo.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">IV.</span> Salvação</summary>
+<div class="creed__body">
 
-## ARTIGO 2 — AS ESCRITURAS
+A salvação envolve a redenção do homem como um todo e é oferecida com liberdade a todos os que aceitam a Jesus como Senhor e Salvador, que através do Seu próprio sangue obteve redenção eterna para o crente. Nesse sentido mais amplo a salvação inclui a regeneração, a justificação, a santificação e a glorificação. Não há salvação sem a fé pessoal em Jesus Cristo como Senhor.
 
-A Escritura, como Palavra de Deus, é o instrumento da Revelação especial. Ela é necessária e suficiente para conhecer Deus, o seu plano eterno (criação, queda, redenção, restauração) e a forma de adorá-lo corretamente.
+A. A regeneração, ou novo nascimento, é uma obra da graça de Deus através da qual os crentes se tornam novas criaturas em Cristo Jesus. É uma mudança no coração feito pelo Espírito Santo por meio da convicção do pecado, à qual o pecador responde em arrependimento para com Deus e fé no Senhor Jesus Cristo. O arrependimento e a fé são experiências inseparáveis da graça.
 
-Esta Revelação é única e clara, não precisa de ser complementada por nenhuma outra. As Escrituras são compostas dos 66 livros do cânon bíblico definitivamente fechado, o qual o Espírito Santo divinamente inspirou aos seus autores humanos. Ela não contém erros até ao mais ínfimo detalhe dos manuscritos originais. Ao longo da história, Deus preservou a Sua Palavra para que ela possa ainda ser digna de fé hoje e compreendida pela Sua igreja. Tudo o que ela afirma cumpre-se de forma perfeita.
+O arrependimento consiste verdadeiramente em virar as costas ao pecado e voltar-se para Deus. A fé é a aceitação de Jesus Cristo e a entrega de toda a personalidade a Ele como Senhor e Salvador.
 
-A Lei, revelada nas Escrituras em vários lugares e em diferentes graus, reflete o caráter de Deus. Ela revela o pecado do homem e mostra a necessidade de se recorrer a Cristo. Embora ela já não condene o crente, a Lei moral é inteiramente boa e continua a ser um guia seguro para a sua vida.
+B. A justificação é absolvição graciosa e completa operada por Deus, com base nos princípios da Sua justiça, para todos os pecadores que se arrependem e crêem em Cristo. A justificação traz o crente para um relacionamento de paz e favor com Deus.
 
-A conclusão da redação das Escrituras, no tempo dos Apóstolos, virou uma página na história da salvação e conclui a revelação especial. Do final do primeiro século até ao retorno de Cristo, a Palavra de Deus não pode ser modificada (nem se adicionando, nem se retirando algo). Completa e definitiva, ela é totalmente suficiente para a vida da Igreja e dos crentes, e nada pode ser comparado a ela.
+C. A santificação é a experiência, que começa com a regeneração, pela qual o crente é separado para os propósitos de Deus e é capacitado a progredir para a maturidade moral e espiritual pela presença e do poder do Espírito Santo que habita nele. O crescimento na graça deve continuar ao longo da vida regenerada da pessoa.
 
-Deus revelou quem é e qual o seu objetivo redentor por meio de milagres e ações na história. Observamos a sua presença pontual na história da salvação. Assim, esses sinais não são nem habituais, nem normativos para a vida do povo de Deus. A presença de milagres é ainda possível, segundo a livre soberania de Deus, porém todos os "sinais e milagres" não são uma garantia de autenticidade divina. Estes devem ser examinados com prudência à luz da Palavra de Deus.
+D. A glorificação é a culminação da salvação e é o estado final abençoado e perene do redimido.
 
-A Escritura é, assim, a única regra de fé e vida. Cada um dos seus textos deve ser interpretado de acordo com o todo e deve ser compreendido em humildade, com a ajuda do Espírito Santo.
+<p class="creed__refs">Gênesis 3:15; Êxodo 3:14-17; 6:2-8; Mateus 1:21; 4:17; 16:21-26; 27:22 – 28:6; Lucas 1:68-69; 2:28-32; João 1:11-14, 29; 3:3-21, 36; 5:24; 10:9, 28-29; 15:1-16; 17:17; Atos 2:21; 4:12; 15:11; 16:30-31; 17:30-31; 20:32; Romanos 1:16-18; 2:4; 3:23-25; 4:3ss.; 5:8-10; 6:1-23; 8:1-18, 29-39; 10:9-10, 13; 13:11-14; 1 Coríntios 1:18-30; 6:19-20; 15:10; 2 Coríntios 5:17-20; Gálatas 2:20; 3:13; 5:22-25; 6:15; Efésios 1:7; 2:8-22; 4:11-16; Filipenses 2:12-13; Colossenses 1:9-22; 3:1ss.; 1 Tessalonicenses 5:23-24; 2 Timóteo 1:12; Tito 2:11-14; Hebreus 2:1-3; 5:8-9; 9:24-28; 11:1-12:8, 14; Tiago 2:14-26; 1 Pedro 1:2-23; 1 João 1:6-2:11; Apocalipse 3:20; 21:1-22:5.</p>
 
-Texto de referência que subscrevemos e que é útil a quem queira aprofundar estas noções:
+</div>
+</details>
 
-- as Três Declarações de Chicago (1978, 1982, 1986), sobre o modo de considerar a Bíblia e sobre os princípios a serem respeitados para a sua interpretação.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">V.</span> O Propósito da Graça de Deus</summary>
+<div class="creed__body">
 
-## ARTIGO 3 — A CRIAÇÃO
+A eleição é o propósito da graça de Deus, pela qual Ele regenera, justifica, santifica e glorifica os pecadores. É consistente com o livre arbítrio do homem e compreende todos os meios em conexão com o fim. É a demonstração gloriosa da bondade soberana de Deus e é infinitamente sábia, santa e imutável. Exclui a ostentação e promove a humildade.
 
-### Geral
+Todos os crentes verdadeiros permanecem até o final. Aqueles a quem Deus aceitou em Cristo, e santificou pelo Seu Espírito, jamais cairão do estado de graça, mas irão perseverar até o fim. Os crentes podem cair em pecado devido à negligência e à tentação, pelo que entristecem o Espírito, enfraquecem sua graça e conforto e trazem vergonha para a causa de Cristo e julgamento temporal sobre si mesmos; ainda assim estarão guardados pelo poder de Deus por meio da fé que leva à salvação.
 
-O Deus triúno, na sua livre vontade, criou tudo o que existe, visível e invisível, inteiramente bom. Antes de começar a criar, nada existia além dele mesmo. Através da sua Palavra, Deus criou tudo para a sua glória.
+<p class="creed__refs">Gênesis 12:1-3; Êxodo 19:5-8; 1 Samuel 8:4-7, 19-22; Isaías 5:1-7; Jeremias 31:31ss.; Mateus 16:18-19; 21:28-45; 24:22, 31; 25:34; Lucas 1:68-79; 2:29-32; 19:41-44; 24:44-48; João 1:12-14; 3:16; 5:24; 6:44-45, 65; 10:27-29; 15:16; 17:6, 12, 17-18; Atos 20:32; Romanos 5:9-10; 8:28-39; 10:12-15; 11:5-7, 26-36; 1 Coríntios 1:1-2; 15:24-28; Efésios 1:4-23; 2:1-10; 3:1-11; Colossenses 1:12-14; 2 Tessalonicenses 2:13-14; 2 Timóteo 1:12; 2:10, 19; Hebreus 11:39-12:2; Tiago 1:12; 1 Pedro 1:2-5, 13; 2:4-10; 1 João 1:7-9; 2:19; 3:2.</p>
 
-Deus criou os anjos, espíritos imortais, santos e poderosos, para o louvarem, o adorarem e lhe obedecerem.
+</div>
+</details>
 
-Por meio da sua providência e de acordo com os seus planos, ele preserva e governa tudo. Toda a criação revela as perfeições invisíveis, o eterno poder e a divindade do Criador, pelo que tudo o que existe é conclamado a adorá-lo.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">VI.</span> A Igreja</summary>
+<div class="creed__body">
 
-### Homem
+A igreja do Senhor Jesus Cristo no Novo Testamento é uma congregação local autônoma de crentes batizados, associados pelo pacto de fé e comunhão do evangelho; observando as duas ordenanças de Cristo, governada por Suas leis, exercitando os dons, direitos e privilégios investidos neles por Sua Palavra e buscando estender o evangelho aos confins da terra. Cada congregação opera sob o Senhorio de Cristo por meio de processos democráticos. Em tais congregações cada membro é responsável e presta contas a Cristo como Senhor. Seus oficiais segundo as escrituras são pastores e diáconos. Muito embora tanto homens como mulheres tenham dons para o serviço na igreja, o ofício de pastor é limitado a homens qualificados pela Escritura.
 
-Deus criou o Homem, justo e santo, para conhecê-lo, glorificá-lo e encontrar a sua alegria nele.
+O Novo Testamento também fala sobre a igreja como Corpo de Cristo que inclui todos os redimidos de todas as épocas, crentes de todas as tribos, línguas, povos e nações.
 
-Deus criou Adão e Eva, o primeiro casal histórico e ancestral único da humanidade. O homem e a mulher são o ápice da criação, foram criados à imagem e semelhança de Deus, que é o criador de cada ser humano.
+<p class="creed__refs">Mateus 16:15-19; 18:15-20; Atos 2:41-42, 47; 5:11-14; 6:3-6; 13:1-3; 14:23, 27; 15:1-30; 16:5; 20:28; Romanos 1:7; 1 Coríntios 1:2; 3:16; 5:4-5; 7:17; 9:13-14; 12; Efésios 1:22-23; 2:19-22; 3:8-11, 21; 5:22-32; Filipenses 1:1; Colossenses 1:18; 1 Timóteo 2:9-14; 3:1-15; 4:14; Hebreus 11:39-40; 1 Pedro 5:1-4; Apocalipse 2-3; 21:2-3.</p>
 
-Deus encarregou o homem e a mulher de cuidarem de toda a Terra e governá-la. O homem e a mulher foram criados iguais em valor e dignidade. São diferentes em suas características e complementam-se nas suas funções.
+</div>
+</details>
 
-Na Criação, Deus instituiu o casamento entre um homem e uma mulher. Essa aliança normativa celebrada diante de Deus e dos homens é um reflexo do relacionamento entre Jesus Cristo e a Igreja.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">VII.</span> O Batismo e a Ceia do Senhor</summary>
+<div class="creed__body">
 
-Textos de referência que subscrevemos e que são úteis a quem queira aprofundar estas noções:
+O batismo cristão é a imersão do crente nas águas em nome do Pai, do Filho e do Espírito Santo. É um ato de obediência simbolizando a fé do crente no Salvador que foi crucificado, sepultado e ressuscitado, a morte do crente, o sepultamento da velha vida e a ressurreição para andar em novidade de vida com Cristo Jesus. É um testemunho da sua fé na ressurreição final dos mortos. Como uma ordenança da igreja, é um pré-requisito para os privilégios da membresia na igreja e participação na Ceia do Senhor.
 
-- Declaração de Danvers (1988), sobre masculinidade e feminilidade;
-- Declaração de Nashville (2017), sobre género e sexualidade.
+A Ceia do Senhor é um ato simbólico de obediência pelo qual os membros da igreja, através do compartilhar do pão e do fruto da vinha, relembram a morte do Redentor e aguardam sua segunda vinda.
 
-## ARTIGO 4 — A QUEDA
+<p class="creed__refs">Mateus 3:13-17; 26:26-30; 28:19-20; Marcos 1:9-11; 14:22-26; Lucas 3:21-22; 22:19-20; João 3:23; Atos 2:41-42; 8:35-39; 16:30-33; 20:7; Romanos 6:3-5; 1 Coríntios 10:16, 21; 11:23-29; Colossenses 2:12.</p>
 
-### Acontecimento
+</div>
+</details>
 
-Na comunhão que os unia a Deus, Adão e Eva eram capazes de obedecer ou desobedecer a Deus. Tentados pelo diabo, eles deliberadamente desobedeceram ao comerem do fruto proibido. Este evento histórico não fugiu da plena soberania de Deus.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">VIII.</span> O Dia do Senhor</summary>
+<div class="creed__body">
 
-### Consequências
+O primeiro dia da semana é o Dia do Senhor. É uma instituição cristã para observância regular. Comemora a ressurreição de Cristo dentre os mortos e devem incluir exercícios de louvor e devoção espiritual, tanto públicos quanto particulares. As atividades no Dia do Senhor devem entrar em consonância com a consciência cristã sob o Senhorio de Jesus Cristo.
 
-Assim, a comunhão entre Deus e o Homem foi quebrada. Por causa da desobediência de Adão, a morte e a corrupção entraram no mundo e todo o universo foi afetado. A culpa de Adão foi imputada a toda a humanidade, da qual ele era o representante. Desde então, cada ser humano nasce pecador. Ele é completamente caído em seu ser, pelo que, tudo o que pensa, diz e faz está marcado pela corrupção. Assim, o homem continua a ter a capacidade moral de fazer as suas escolhas, mas a sua natureza caída o empurra inexoravelmente em direção ao pecado. O homem morreu espiritualmente, é escravo do pecado e culpado diante da justiça de Deus.
+<p class="creed__refs">Êxodo 20:8-11; Mateus 12:1-12; 28:1ss.; Marcos 2:27-28; 16:1-7; Lucas 24:1-3, 33-36; João 4:21-24; 20:1, 19-28; Atos 20:7; Romanos 14:5-10; 1 Coríntios 16:1-2; Colossenses 2:16; 3:16; Apocalipse 1:10.</p>
 
-Todas as suas faculdades estão afetadas pelo pecado e, no seu estado de depravação, não quer nem pode agradar a Deus. Por sua Graça, Deus limita os efeitos do pecado na sua criação e continua a derramar os seus muitos benefícios sobre o homem. Assim, o homem ainda é capaz de ações virtuosas em favor do seu próximo.
+</div>
+</details>
 
-Ainda que desfigurada pelo pecado, a imagem e semelhança de Deus subsiste em cada indivíduo. Assim, ninguém se deve sobrevalorizar a partir de uma alegada superioridade intrínseca sobre outros seres humanos.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">IX.</span> O Reino</summary>
+<div class="creed__body">
 
-## ARTIGO 5 — A SALVAÇÃO
+O Reino de Deus inclui tanto Sua soberania geral sobre o universo quanto Seu reinado particular sobre os homens que deliberadamente o conhecem como Rei. O Reino é particularmente o domínio da salvação no qual os homens entram através de compromisso confiável e infantil com Jesus Cristo. Os cristãos devem orar e trabalhar para que o Reino venha e que a vontade de Deus seja feita na terra. A consumação total do Reino aguarda o retorno de Jesus Cristo e o final desta era.
 
-A fim de realizar o seu projeto eterno, depois da queda, o Deus triúno desencadeia o seu plano de redenção, decretada pelo Pai, realizada pelo Filho e aplicada pelo Espírito.
+<p class="creed__refs">Gênesis 1:1; Isaías 9:6-7; Jeremias 23:5-6; Mateus 3:2; 4:8-10, 23; 12:25-28; 13:1-52; 25:31-46; 26:29; Marcos 1:14-15; 9:1; Lucas 4:43; 8:1; 9:2; 12:31-32; 17:20-21; 23:42; João 3:3; 18:36; Atos 1:6-7; 17:22-31; Romanos 5:17; 8:19; 1 Coríntios 15:24-28; Colossenses 1:13; Hebreus 11:10, 16; 12:28; 1 Pedro 2:4-10; 4:13; Apocalipse 1:6, 9; 5:10; 11:15; 21-22.</p>
 
-### A obra de Cristo
+</div>
+</details>
 
-Em seu amor e justiça, Deus escolheu Cristo como Salvador antes da criação do mundo. Tornando-se plenamente homem, Cristo identificou-se com os homens e pode representá-los diante de Deus.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">X.</span> Últimas Coisas</summary>
+<div class="creed__body">
 
-De acordo com as promessas feitas a Adão e a Abraão, e progressivamente reveladas no Antigo Testamento, Jesus Cristo realiza e inaugura a aliança de graça entre Deus e o Seu povo.
+Deus, em Seu próprio tempo e da Sua própria maneira, irá trazer o mundo ao seu fim apropriado. De acordo com Sua promessa, Jesus Cristo irá retornar pessoalmente e visivelmente em glória para a terra; os mortos serão levantados; e Cristo irá julgar todos os homens em justiça. Os injustos irão para o Inferno, o lugar de punição eterna. Os justos em seus corpos ressurretos e glorificados, receberão seu galardão e irão habitar eternamente no Céu com o Senhor.
 
-Deus designou-o como o único mediador pelo qual os homens podem ser salvos. Cristo recebeu a condenação de Deus no lugar de todos os pecadores que nele creem. A sua morte é eficaz porque ele é plenamente Deus e a sua ressurreição proclama de uma vez por todas que Ele é perfeitamente justo. Por meio da cruz, Cristo triunfa sobre os poderes espirituais rebeldes para com Deus, sobre o pecado e sobre a morte.
+<p class="creed__refs">Isaías 2:4; 11:9; Mateus 16:27; 18:8-9; 19:28; 24:27, 30, 36, 44; 25:31-46; 26:64; Marcos 8:38; 9:43-48; Lucas 12:40, 48; 16:19-26; 17:22-37; 21:27-28; João 14:1-3; Atos 1:11; 17:31; Romanos 14:10; 1 Coríntios 4:5; 15:24-28, 35-58; 2 Coríntios 5:10; Filipenses 3:20-21; Colossenses 1:5; 3:4; 1 Tessalonicenses 4:14-18; 5:1ss.; 2 Tessalonicenses 1:7ss.; 2; 1 Timóteo 6:14; 2 Timóteo 4:1, 8; Tito 2:13; Hebreus 9:27-28; Tiago 5:8; 2 Pedro 3:7ss.; 1 João 2:28; 3:2; Judas 14; Apocalipse 1:18; 3:11; 20:1-22:13.</p>
 
-### Os que creem em Cristo
+</div>
+</details>
 
-Por meio da sua união com Jesus Cristo, Deus revela a plenitude da Sua salvação aos crentes. Deus perdoa todos os seus pecados, por meio da fé em Cristo. Libertos da escravidão do pecado e do diabo, eles entram no reino de Deus. Cristo torna Deus propício aos crentes ao ter satisfeito a justiça de Deus e ao ter aplacado a sua ira justa para com eles. Os crentes podem agora viver em comunhão com o seu Criador.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XI.</span> Evangelismo e Missões</summary>
+<div class="creed__body">
 
-O ministério terreno de Cristo inaugurou "os últimos dias". Os cristãos vivem no "já" da obra realizada por Cristo e no "ainda não" da consumação final. Os cristãos têm um corpo caído e vivem num mundo caído. Eles receberam bênçãos de acordo com as promessas de Deus, cuja plena realização eles esperam aquando do retorno de Cristo. Por meio desta radiosa perspetiva, que alimenta a sua esperança vigilante, os crentes consagram-se a Deus em todos os aspetos da sua vida. São zelosos no seu serviço pela Igreja e na proclamação urgente do Evangelho. Os cristãos anseiam, assim, com fervor o retorno do seu Senhor.
+É dever e privilégio de todo seguidor de Cristo e de toda igreja do Senhor Jesus Cristo de se esforçar para fazer discípulos em todas as nações. O novo nascimento do espírito do homem por meio do Espírito Santo significa o nascimento do amor pelos outros. O esforço missionário da parte de todos se baseia, pois, na necessidade espiritual da vida regenerada, e é expressa e repetidamente ordenada nos ensinos de Cristo. O Senhor Jesus Cristo ordenou a pregação do evangelho a todas as nações. É dever de todos os filhos de Deus procurar constantemente ganhar os perdidos para Cristo através do testemunho verbal acompanhado de um estilo de vida cristão, e outros métodos em harmonia com o evangelho de Cristo.
 
-A morte física marca o fim da vida terrena neste mundo caído. Trata-se de um evento triste para quem fica. Enquanto se está na espera da ressurreição, a alma dos cristãos está com Cristo num estado de felicidade, e assim, os cristãos podem viver o seu luto ao mesmo tempo que experimentam paz.
+<p class="creed__refs">Gênesis 12:1-3; Êxodo 19:5-6; Isaías 6:1-8; Mateus 9:37-38; 10:5-15; 13:18-30, 37-43; 16:19; 22:9-10; 24:14; 28:18-20; Lucas 10:1-18; 24:46-53; João 14:11-12; 15:7-8, 16; 17:15; 20:21; Atos 1:8; 2; 8:26-40; 10:42-48; 13:2-3; Romanos 10:13-15; Efésios 3:1-11; 1 Tessalonicenses 1:8; 2 Timóteo 4:5; Hebreus 2:1-3; 11:39-12:2; 1 Pedro 2:4-10; Apocalipse 22:17.</p>
 
-### Redenção
+</div>
+</details>
 
-**Origem da Salvação:** De acordo com a sua boa vontade e com o mistério da sua sabedoria, Deus elegeu, antes da fundação do mundo, aqueles que salva em Cristo Jesus.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XII.</span> Educação</summary>
+<div class="creed__body">
 
-**Chamada:** Pela proclamação do Evangelho, Deus chama todos os homens a se arrependerem. Eles são responsáveis diante de Deus pelas suas escolhas e pela resposta que dão ao Evangelho. Em sua Graça e pela ação do seu Espírito, o Pai atrai pecadores a Cristo.
+O Cristianismo é a fé de esclarecimento e inteligência. Em Jesus Cristo estão todos os tesouros de sabedoria e do conhecimento. Todo aprendizado saudável é, portanto, uma parte de nossa herança cristã. O novo nascimento abre todas as faculdades humanas e cria uma sede de conhecimento. Além disso, a causa da educação no Reino de Cristo é coordenada com as causas de missões e benevolência geral, e deve receber juntamente com estas, o apoio liberal das igrejas. Um sistema adequado de educação cristã é necessário para um programa espiritual completo para o povo de Cristo.
 
-**Regeneração:** Pelo seu grande amor, Deus faz nascer de novo aqueles que salva. Assim, eles tornam-se novas criaturas para a vida eterna que está em Jesus Cristo.
+Na educação Cristã deve haver equilíbrio apropriado entre liberdade acadêmica e responsabilidade acadêmica. A liberdade em qualquer relacionamento ordeiro da vida humana é sempre limitada e nunca absoluta. A liberdade do professor de uma escola, faculdade, ou seminário cristão é limitada pela preeminência de Jesus Cristo, pela natureza autoritária das Escrituras e pelo propósito distinto para o qual a escola existe.
 
-**Conversão:** Após a ação do Espírito Santo, o pecador arrepende-se do seu pecado e coloca a sua fé somente em Jesus Cristo, a quem ele confessa como Salvador e Senhor. Ele compromete-se então a viver para Deus.
+<p class="creed__refs">Deuteronômio 4:1, 5, 9, 14; 6:1-10; 31:12-13; Neemias 8:1-8; Jó 28:28; Salmo 19:7ss.; 119:11; Provérbios 3:13ss.; 4:1-10; 8:1-7, 11; 15:14; Eclesiastes 7:19; Mateus 5:2; 7:24ss.; 28:19-20; Lucas 2:40; 1 Coríntios 1:18-31; Efésios 4:11-16; Filipenses 4:8; Colossenses 2:3, 8-9; 1 Timóteo 1:3-7; 2 Timóteo 2:15; 3:14-17; Hebreus 5:12-6:3; Tiago 1:5; 3:17.</p>
 
-**Justificação:** Através da união do crente com Cristo e através da fé, Deus atribui-lhe a justiça de Cristo. O crente não é mais tratado como um pecador diante de Deus, mas declarado justo e livre de toda a condenação.
+</div>
+</details>
 
-**Adoção:** Sendo justificados, os crentes estão em paz e reconciliados com Deus, que os adota como filhos, dando-lhes o seu Espírito, tornando-os co-herdeiros com Cristo, membros da família de Deus.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XIII.</span> Mordomia</summary>
+<div class="creed__body">
 
-**Santificação:** Pela sua união com Cristo, os crentes foram santificados por Deus, que habita neles por meio do seu Espírito. Ele separa-os para o adorarem e se conformarem a Ele, de acordo com o modelo dado em Jesus Cristo. Consagrados a Deus, os seus filhos são chamados a trabalhar pela sua santidade, numa dependência contínua do Espírito Santo, desde o novo nascimento até à morte física, pois Deus é santo.
+Deus é a fonte de todas as bênçãos, temporais e espirituais; tudo o que temos e somos devemos a Ele. Os cristãos têm uma dívida espiritual para com o mundo todo, uma confiança sagrada no evangelho e uma mordomia vinculada às suas posses. Eles são, portanto, obrigados a servi-Lo com seu tempo, talentos e posses materiais; e devem reconhecer que tudo lhes foi confiado para que utilizem para a glória de Deus e o auxílio a outras pessoas. De acordo com as Escrituras, os cristãos devem contribuir de maneira alegre, regular, sistemática, proporcional e liberal para o avanço da causa do Redentor na terra.
 
-Por amor a Cristo, os crentes voluntariamente obedecem aos Seus mandamentos, que são resumidos em amar a Deus e ao próximo. O Espírito Santo dá-lhes a vontade e a capacidade de obedecer a fim de crescerem em santidade, produzindo fruto segundo Deus, principalmente graças à leitura e ensino das Escrituras, à oração, às ordenanças (batismo e ceia), à comunhão fraterna e ao serviço.
+<p class="creed__refs">Gênesis 14:20; Levítico 27:30-32; Deuteronômio 8:18; Malaquias 3:8-12; Mateus 6:1-4, 19-21; 19:21; 23:23; 25:14-29; Lucas 12:16-21, 42; 16:1-13; Atos 2:44-47; 5:1-11; 17:24-25; 20:35; Romanos 6:6-22; 12:1-2; 1 Coríntios 4:1-2; 6:19-20; 12; 16:1-4; 2 Coríntios 8-9; 12:15; Filipenses 4:10-19; 1 Pedro 1:18-19.</p>
 
-Os cristãos testemunham da sua conversão através de uma vida transformada. Embora declarados justos por Deus, os santos são chamados a lutar contra o pecado, que habita neles, em toda a sua vida terrena. São chamados a glorificar a Deus em todas as circunstâncias, tanto no seu sofrimento e provações, como na abundância.
+</div>
+</details>
 
-**Perseverança dos Santos:** Selados pelo Espírito Santo, os verdadeiros cristãos podem experimentar, legitimamente, a certeza da salvação. Graças a Deus, eles perseveram na fé. Aqueles que a abandonam definitivamente testemunham que nunca conheceram verdadeiramente Jesus Cristo. Nada nem ninguém pode separar os crentes do seu Salvador.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XIV.</span> Cooperação</summary>
+<div class="creed__body">
 
-**Glorificação:** No retorno de Jesus Cristo, os cristãos ressuscitarão com um corpo glorioso, para viverem eternamente na presença de Deus. Assim, eles desfrutarão plenamente de todos os benefícios da sua salvação em Cristo.
+O povo de Cristo deve, de acordo com a ocasião, organizar associações e convenções a fim de assegurar a cooperação para os grandes objetivos do Reino de Deus. Tais organizações não têm nenhuma autoridade umas sobre as outras ou sobre as igrejas. São corpos voluntários e conselheiros destinados a fazer surgir, combinar e dirigir as energias do nosso povo de maneira efetiva. Os membros de igrejas neotestamentárias devem cooperar uns com os outros a fim de dar continuidade aos ministérios missionários, educacionais e benevolentes para a extensão do Reino de Cristo. A unidade cristã no sentido do Novo Testamento é harmonia espiritual e cooperação voluntária para fins comuns por parte de vários grupos do povo de Cristo. A cooperação é desejável entre as várias denominações cristãs, quando o objetivo a ser alcançado é justificado por si mesmo, e quando tal cooperação envolve a não violação da consciência ou o compromisso de lealdade a Cristo e Sua Palavra conforme revelada no Novo Testamento.
 
-Texto de referência que subscrevemos e que é útil a quem queira aprofundar estas noções:
+<p class="creed__refs">Êxodo 17:12; 18:17ss.; Juízes 7:21; Esdras 1:3-4; 2:68-69; 5:14-15; Neemias 4; 8:1-5; Mateus 10:5-15; 20:1-16; 22:1-10; 28:19-20; Marcos 2:3; Lucas 10:1ss.; Atos 1:13-14; 2:1ss.; 4:31-37; 13:2-3; 15:1-35; 1 Coríntios 1:10-17; 3:5-15; 12; 2 Coríntios 8-9; Gálatas 1:6-10; Efésios 4:1-16; Filipenses 1:15-18.</p>
 
-- 5 Solas, fórmula dos Reformadores (século XVI), que reafirma os fundamentos da Salvação.
+</div>
+</details>
 
-## ARTIGO 6 — A IGREJA
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XV.</span> O Cristão e a Ordem Social</summary>
+<div class="creed__body">
 
-### Igreja Universal
+Todos os cristãos estamos sob a obrigação de procurar fazer a vontade suprema de Cristo na nossa própria vida e na sociedade humana. Os meios e os métodos usados para a melhora da sociedade e o estabelecimento da justiça entre os homens podem ser uma ajuda verdadeira e permanente somente quando originadas na regeneração do indivíduo pela graça salvadora de Deus em Jesus Cristo. No espírito de Cristo, os cristãos devem se opor ao racismo, toda forma de ganância, egoísmo e vício, e todas as formas de imoralidade sexual, incluindo adultério, homossexualismo e pornografia. Devemos trabalhar para ajudar os órfãos, necessitados, maltratados, idosos, desamparados e doentes. Devemos falar em favor dos que irão nascer e lutar pela santidade de toda vida humana desde a concepção até a morte natural. Todo Cristão deve procurar trazer a indústria, o governo e a sociedade como um todo sob influência dos princípios de justiça, verdade e amor fraternal. A fim de promover esses fins, os cristãos devem estar prontos a trabalhar com todos os homens de boa vontade em qualquer boa causa, sempre tendo o cuidado de agir no espírito de amor sem comprometer sua lealdade a Cristo e Sua verdade.
 
-A Igreja universal, na sua totalidade, é a coluna e o baluarte da verdade, é composta de todos os redimidos, os quais formam o povo de Deus. É o corpo de Cristo, composto de crentes unidos, pelo Espírito Santo, a Cristo, que é a cabeça. A Igreja é a Noiva de Cristo, e Ele é o seu líder. Habitada pelo Espírito Santo, ela é o templo de Deus, do qual Cristo é a pedra angular. É ele quem a edifica.
+<p class="creed__refs">Êxodo 20:3-17; Levítico 6:2-5; Deuteronômio 10:12; 27:17; Salmo 101:5; Miquéias 6:8; Zacarias 8:16; Mateus 5:13-16, 43-48; 22:36-40; 25:35; Marcos 1:29-34; 2:3ss.; 10:21; Lucas 4:18-21; 10:27-37; 20:25; João 15:12; 17:15; Romanos 12-14; 1 Coríntios 5:9-10; 6:1-7; 7:20-24; 10:23-11:1; Gálatas 3:26-28; Efésios 6:5-9; Colossenses 3:12-17; 1 Tessalonicenses 3:12; Filemom; Tiago 1:27; 2:8.</p>
 
-A Igreja é una, santa, universal e fiel à sã doutrina transmitida, de uma vez por todas, pelos Apóstolos, nas Escrituras.
+</div>
+</details>
 
-### A missão
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XVI.</span> Paz e Guerra</summary>
+<div class="creed__body">
 
-A Igreja deve assegurar-se de proclamar todo o Evangelho de Cristo a todos os povos do mundo inteiro, a fim de fazer novos discípulos e plantar novas Igrejas locais. Estas encorajam de forma intencional o testemunho dos crentes no seu contexto e o envio de missionários até aos confins da Terra.
+É dever dos Cristãos procurar a paz com todos os homens com base nos princípios da justiça. De acordo com o espírito e os ensinos de Cristo, eles devem fazer tudo que estiver ao seu alcance para dar fim às guerras.
 
-### Igreja local
+O verdadeiro remédio para o espírito de guerra é o evangelho do nosso Senhor. A necessidade suprema do mundo é a aceitação dos Seus ensinos em todos os assuntos dos homens e das nações, e a aplicação prática da Sua lei do amor. Pessoas cristãs em todo o mundo devem orar pelo reinado do Príncipe da Paz.
 
-A Igreja local é a manifestação visível e temporal da Igreja universal, que adora e glorifica Deus. Os seus membros reúnem-se para o culto centrado em Cristo, na comunhão fraternal. A Igreja visa a edificação mútua. Ela dá testemunho em palavras e ações e serve no seu seio e fora. Ela ensina e vive a Palavra de Deus em todas as ocasiões. Existem igrejas verdadeiras e falsas, mas não há igreja local que seja perfeita.
+<p class="creed__refs">Isaías 2:4; Mateus 5:9, 38-48; 6:33; 26:52; Lucas 22:36, 38; Romanos 12:18-19; 13:1-7; 14:19; Hebreus 12:14; Tiago 4:1-2.</p>
 
-### O culto
+</div>
+</details>
 
-A Igreja local presta culto comunitário a Deus, com alegria e reverência, principalmente através de: pregação das Escrituras, a oração, as ordenanças, e os cânticos. Este culto acontece com ordem, de forma inteligível e com decência, submetendo-se às indicações das Escrituras.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XVII.</span> Liberdade Religiosa</summary>
+<div class="creed__body">
 
-### As ordenanças
+Somente Deus é o Senhor da consciência e Ele a deixou livre de doutrinas e mandamentos dos homens que são contrários à Sua Palavra ou não estão incluídos nela. A igreja e o estado devem ser separados. O estado deve a toda igreja proteção e liberdade total na busca de seus fins espirituais. Ao providenciar tal liberdade, nenhum grupo eclesiástico ou denominação deve ser mais favorecido do que outro pelo estado. Sendo o governo civil ordenado por Deus, é dever dos cristãos prestar obediência leal a partir de então em todas as coisas que não são contrárias à vontade revelada de Deus. A igreja não deve recorrer ao poder civil para desempenhar o seu trabalho. O evangelho de Cristo contempla apenas meios espirituais para alcançar os seus fins. O estado não tem o direito de impor penalidades para opiniões religiosas, seja de que tipo for. O estado não tem o direito de impor taxas para o apoio de nenhum tipo de religião. Uma igreja livre num estado livre é o ideal cristão e isso implica o direito de acesso livre e sem impedimento a Deus por parte de todos os homens, e o direito de formar e propagar opiniões na esfera da religião sem a interferência do poder civil.
 
-O batismo e a ceia do Senhor são as duas únicas ordenanças instituídas por Cristo. Sinais da sua aliança, contribuem para nutrir a fé dos seus discípulos reunidos em Igreja.
+<p class="creed__refs">Gênesis 1:27; 2:7; Mateus 6:6-7, 24; 16:26; 22:21; João 8:36; Atos 4:19-20; Romanos 6:1-2; 13:1-7; Gálatas 5:1, 13; Filipenses 3:20; 1 Timóteo 2:1-2; Tiago 4:12; 1 Pedro 2:12-17; 3:11-17; 4:12-19.</p>
 
-O batismo pratica-se por imersão, salvo por excepções. Deve decorrer de uma conversão genuína e de uma confissão consciente de fé em Jesus Cristo. O batismo é um ato único de obediência, pelo qual os crentes manifestam que estão mortos para o pecado e vivos para Cristo. É o sinal da remissão dos pecados do crente em Cristo e uma consagração da sua vida a Deus. Exprime a sua resolução de viver para Deus e materializa a sua filiação à Igreja.
+</div>
+</details>
 
-A Ceia é a refeição da aliança por meio da qual os crentes partilham o pão e o vinho, símbolos do corpo e do sangue de Jesus que foi vertido pelos seus pecados. Por meio da refeição do Senhor, os crentes experimentam a comunhão com Cristo e com a sua Igreja, que é o seu corpo. Assim comemoram e proclamam regularmente a morte de Cristo, enquanto aguardam a sua volta.
+<details class="creed">
+<summary class="creed__summary"><span class="creed__num">XVIII.</span> A Família</summary>
+<div class="creed__body">
 
-### A autoridade
+Deus instituiu a família como a instituição fundamental da sociedade humana. Ela é composta de pessoas relacionadas umas às outras através do casamento, do sangue, ou da adoção.
 
-O governo da igreja local é assegurado pelo conselho colegial de pastores que a dirigem e a servem. Os pastores são irmãos chamados por Cristo e reconhecidos pela Igreja local, de acordo com os critérios estabelecidos nas Escrituras.
+O casamento é a união de um homem e uma mulher num compromisso de pacto para a vida toda. É dádiva única de Deus revelar a união entre Cristo e Sua igreja e para conceder ao homem e à mulher, no casamento, a estrutura para o companheirismo íntimo, o canal de expressão sexual de acordo com o padrão bíblico, e os meios para a procriação da raça humana.
 
-Os pastores submetem-se à Escritura e exercem a sua autoridade ensinando-a. Com base nisso, eles são responsáveis pela disciplina da igreja local, com o apoio dos membros.
+O marido e a mulher são de igual valor diante de Deus, já que ambos são criados à imagem de Deus. O relacionamento do casamento modela a maneira como Deus se relaciona com o Seu povo. O marido deve amar sua esposa como Cristo amou a igreja. Ele tem a responsabilidade dada por Deus de prover, proteger e guiar sua família. A esposa deve se submeter graciosamente à liderança de seu marido assim como a igreja deliberadamente se submete à liderança de Cristo. Ela, sendo imagem de Deus assim como seu marido e portanto igual a ele, tem a responsabilidade dada por Deus de respeitar seu marido e servir como ajudadora administrando o lar e cuidando da próxima geração.
 
-Cada membro submete-se à autoridade colegial do conselho de pastores, com base nas Escrituras, expostas nesta Confissão de Fé.
+Os filhos, desde o momento da concepção, são bênção e herança do Senhor. Os pais devem demonstrar aos filhos o padrão de Deus para o casamento. Os pais devem ensinar aos seus filhos os valores espirituais e morais e levá-los, através de um exemplo de estilo de vida consistente e disciplina com amor, a fazer escolhas baseadas nas verdades bíblicas. As crianças devem honrar e obedecer seus pais.
 
-### Membros
+<p class="creed__refs">Gênesis 1:26-28; 2:15-25; 3:1-20; Êxodo 20:12; Deuteronômio 6:4-9; Josué 24:15; 1 Samuel 1:26-28; Salmo 51:5; 78:1-8; 127; 128; 139:13-16; Provérbios 1:8; 5:15-20; 6:20-22; 12:4; 13:24; 14:1; 17:6; 18:22; 22:6, 15; 23:13-14; 24:3; 29:15, 17; 31:10-31; Eclesiastes 4:9-12; 9:9; Malaquias 2:14-16; Mateus 5:31-32; 18:2-5; 19:3-9; Marcos 10:6-12; Romanos 1:18-32; 1 Coríntios 7:1-16; Efésios 5:21-33; 6:1-4; Colossenses 3:18-21; 1 Timóteo 5:8, 14; 2 Timóteo 1:3-5; Tito 2:3-5; Hebreus 13:4; 1 Pedro 3:1-7.</p>
 
-Todo o cristão é chamado a ser um membro fiel de uma igreja local. Batizado, servindo a Igreja de maneira geral e, mais particularmente, usando os dons recebidos do Espírito. O membro manifesta a sua filiação à Igreja local por meio da sua adesão oficial. Ele participa regularmente na vida da Igreja e provê generosamente as necessidades espirituais e materiais da Igreja local, livremente de acordo com os seus meios.
+</div>
+</details>
 
-Os membros, testemunhas de Cristo, devem amar-se uns aos outros, cultivar a unidade e repreender com doçura os que se afastam. Todos os membros são chamados a servir; alguns o farão assumindo uma responsabilidade de diácono ou de pastor.
+</div>
 
-Texto de referência que subscrevemos e útil a quem quiser aprofundar estas noções:
+<p class="creed__copyright">Copyright © 1999-2001, Comissão Executiva da Convenção Batista do Sul. Todos os direitos reservados.</p>
 
-- a Declaração de Lausanne (1974), na sua convocação a evangelizar, bem como à necessidade e urgência de apresentar Cristo, o único Salvador, a cada ser humano e em todas as culturas.
-
-## ARTIGO 7 — OS CRISTÃOS E O MUNDO
-
-Os cristãos estão no mundo, mas não são do mundo. Os cristãos devem amar o próximo como a si mesmos. Eles são enviados por Cristo ao mundo para testemunhar da graça de Deus aos seus contemporâneos e viver uma vida de santidade no meio da presente era corrompida.
-
-Através da sua fidelidade, os cristãos são uma bênção para o mundo ao seu redor. Eles devem ter o cuidado de promover o Evangelho em todas as esferas da sua vida pessoal e social. Eles valorizam uma gestão sábia do ambiente, de acordo com o mandato cultural.
-
-Os cristãos têm a responsabilidade de entender e avaliar a cultura circundante de acordo com os princípios das Escrituras, valorizando os efeitos da graça comum e confrontando a idolatria, bem como os falsos deuses deste mundo.
-
-### Em relação às autoridades humanas
-
-Embora sejam estrangeiros e peregrinos na terra, os cristãos reconhecem a sua responsabilidade política e social e submetem-se às autoridades civis. Eles devem obedecer-lhes desde que as autoridades não os obriguem a desobedecer a Deus.
-
-### Ética da vida e da morte
-
-Todo o ser humano é portador da imagem de Deus e, por isso, possui uma dignidade intrínseca. Os homens são, portanto, responsáveis perante Deus pela preservação e proteção de toda a vida humana, que começa na concepção e termina com a morte física.
-
-Na situação da pessoa que está a morrer, é necessário encorajar os cuidados paliativos (que aliviam o sofrimento), distinguindo-os do encarniçamento terapêutico (que atropela a dignidade da pessoa), e da eutanásia e do suicídio assistido (que afirma a vontade humana de pôr fim à vida).
-
-### Ética do casamento e da sexualidade
-
-De acordo com o pensamento bíblico, o casamento é uma aliança vitalícia entre um homem e uma mulher. Este compromisso de viver uma vida comum deve ser voluntário e público, perante Deus e sancionado pelas autoridades encarregadas da ordem social. Deus deu a sexualidade como uma componente boa e necessária, a qual só pode ter lugar no contexto do casamento.
-
-Um cristão deve apenas considerar o casamento com outro cristão. É normal associar a igreja local ao processo de casamento entre dois cristãos. Os costumes culturais não devem impedir um projeto de casamento.
-
-Os cônjuges vivem o casamento doando-se e servindo-se mutuamente. A relação entre Cristo e a sua Igreja é o modelo relacional do casamento. O marido, à imagem de Cristo, exerce autoridade caracterizada por um amor sacrificial. A esposa, tal como a Igreja, submete-se voluntariamente ao marido.
-
-Deus chama algumas pessoas ao celibato, pelo que a felicidade de uma pessoa não passa necessariamente pelo casamento. Nem o casamento nem o celibato conferem qualquer valor intrínseco à pessoa humana.
-
-### Ética da família
-
-Deus chama-nos a viver o amor fraternal entre cristãos, primeiramente no contexto do casamento e da família, a célula elementar das sociedades humanas.
-
-Os filhos naturais ou adotados não são um direito nem um dever, mas são uma bênção que Deus concede ao casal. Todos os pais são os principais responsáveis pela educação dos seus filhos. Os pais cristãos são ainda responsáveis de ensinar a Bíblia aos seus filhos e educá-los de acordo com os princípios bíblicos. Eles devem prover o necessário para o pleno desenvolvimento dos seus filhos.
-
-Os filhos são chamados a honrarem os seus pais até à velhice.
-
-Todos os procedimentos para se ter um filho ou para regular a sua chegada, seja por intervenção médica ou social (adoção), não podem ser considerados só por serem tecnicamente ou juridicamente possíveis. Por exemplo, a barriga de aluguer deve ser proibida; no entanto, certas formas de procriação medicamente assistida podem ser consideradas de acordo com os princípios bíblicos.
-
-### Fé e liberdade individual
-
-O cristão submete-se alegremente a Cristo, que é o Senhor em todas as áreas da sua vida (pessoal, académica, profissional, lúdica, financeira, etc.). O cristão evita as armadilhas do relativismo e do legalismo. Além dos claros ensinamentos das Escrituras, todo o cristão administra a sua própria liberdade, na sua alma e consciência, tendo a perspectiva de que ele deve: prestar contas a Deus, buscar o bem dos seus irmãos e do seu próximo, e não prejudicar o seu testemunho.
-
-Deus cuida dos cristãos, dando-lhes todas as coisas para o seu bem. Eles são chamados a viver contentes e a não amar o mundo, nomeadamente o prazer, o conforto e o dinheiro, os quais se podem tornar ídolos. Os cristãos expressam a sua gratidão a Deus sendo generosos com o próximo.
-
-Os cristãos devem examinar todas as suas escolhas de vida, gerir o seu tempo e os seus recursos materiais e financeiros à luz das Escrituras. Tudo isto deve também ser considerado segundo a perspetiva de participar na vida da Igreja local. Os cristãos buscam de acordo com a piedade, um estilo de vida saudável que considere todas as necessidades e aspectos da sua existência: espirituais, relacionais, emocionais, cognitivos e físicos.
-
-### Combate espiritual
-
-Além da luta contra o pecado, os cristãos enfrentam a luta contra os espíritos da maldade (o diabo e os demónios). Estes são anjos criados bons por Deus que se rebelaram contra Deus e são caídos de forma irreversível, ainda que permaneçam sujeitos à soberania de Deus. Eles foram derrotados por Cristo na cruz e aguardam o julgamento final, seguido pelo castigo eterno.
-
-O diabo trabalha para desviar o mundo de Deus. Ele pode tentar ou mesmo influenciar o cristão usando o pecado deste, mas não pode possuí-lo. Assim, a luta espiritual dos crentes deve ser direcionada contra o seu próprio pecado, por meio da santificação e submissão a Cristo e não na busca de um confronto direto com os demónios. Submetidos a Deus e equipados com todas as suas armas, os cristãos, pessoalmente e em Igreja, resistem aos espíritos da maldade, por meio da oração, da fé, de uma vida consagrada, e da proclamação do Evangelho de Cristo.
-
-Textos de referência que subscrevemos e úteis a quem quiser aprofundar estas noções:
-
-- precisamente sobre estes temas, os artigos da 3ª Declaração de Chicago (1986) que evocam: o caráter sagrado da vida humana (art. V), o casamento, a família e a sexualidade (art. VI a VIII), o Estado (art. IX), a lei e a justiça (art. X), a guerra (art. XI), os direitos humanos (art. XII), a economia (art. XIII), o trabalho e o lazer (art. XIV), a riqueza e a pobreza (art. XV), o meio ambiente (art. XVI).
-
-## ARTIGO 8 — A MORTE E O ESTADO FINAL
-
-A morte física, o fim da presente vida terrena, diz respeito a todos os seres humanos, exceto àqueles que estarão vivos no retorno de Cristo.
-
-Após a morte, o corpo e a alma são separados até ao dia da ressurreição. O corpo é destruído, enquanto a alma sobrevive, seja num estado de sofrimento longe de Deus (os perdidos), ou num estado de adoração bem-aventurada, na presença de Cristo (os redimidos). Após a morte, nada permite que a pessoa passe de um estado a outro.
-
-### Retorno de Cristo e ressurreição
-
-Num dia que só Deus sabe, Cristo reunirá o seu povo a Ele. Cristo virá a este mundo, pessoalmente, no seu corpo glorioso e de maneira visível a todos, como juiz dos vivos e dos mortos, para estabelecer o seu reinado visível na Terra. Todos os homens serão ressuscitados com os seus corpos dotados de qualidades diferentes.
-
-### Julgamento final e condenação eterna
-
-Cristo manifestará a glória de Deus ao julgar os humanos de todos os tempos e os anjos, conforme as suas obras. Os perdidos e os anjos caídos sofrerão o castigo eterno e consciente num lugar de tormento preparado por Deus.
-
-### Nova Criação
-
-Deus completará a sua obra de redenção através da reconciliação de todas as coisas por meio da Cruz de Cristo. Nos novos céus e na nova terra, o pecado, o sofrimento e a morte não existirão mais.
-
-Os remidos, em perfeição, viverão para sempre com corpos incorruptíveis, na gloriosa presença de Deus, sob o reinado de Cristo. Deus será totalmente glorificado por todos. Os redimidos o conhecerão perfeitamente e encontrarão n'Ele uma satisfação superabundante.
+<script>
+  (() => {
+    const button = document.querySelector('[data-creed-toggle]');
+    const sections = document.querySelectorAll('.creed');
+    if (!button || !sections.length) return;
+    button.addEventListener('click', () => {
+      const expandir = [...sections].some((section) => !section.open);
+      sections.forEach((section) => { section.open = expandir; });
+      button.textContent = expandir ? 'Reduzir tudo' : 'Expandir tudo';
+    });
+  })();
+</script>

@@ -584,6 +584,106 @@ a:hover { color: var(--accent-dark); }
   margin: 2em 0;
 }
 
+/* ---------- Confissão de fé (secções expansíveis) ---------- */
+
+.creed-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.6rem;
+}
+
+.creed-toggle {
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 0.45rem 0.95rem;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.creed-toggle:hover { color: var(--accent); border-color: var(--accent); }
+
+.creed-list { margin-bottom: 2.5rem; }
+
+.creed { border-top: 1px solid var(--line); }
+.creed:last-child { border-bottom: 1px solid var(--line); }
+
+.creed__summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  position: relative;
+  padding: 1.05rem 2.2rem 1.05rem 0;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+}
+.creed__summary::-webkit-details-marker { display: none; }
+.creed__summary:hover { color: var(--accent); }
+.creed__summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* sinal + / − à direita */
+.creed__summary::after {
+  content: "+";
+  position: absolute;
+  right: 0.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--sans);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--accent);
+}
+.creed[open] > .creed__summary::after { content: "−"; }
+
+.creed__num {
+  flex: none;
+  min-width: 2.4rem;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.creed__body { padding: 0 2.2rem 1.6rem 0; }
+.creed__body > *:first-child { margin-top: 0; }
+.creed__body > *:last-child { margin-bottom: 0; }
+
+.creed__body h3 {
+  font-size: 1.05rem;
+  margin-top: 1.9em;
+  margin-bottom: 0.5em;
+}
+
+.creed__refs {
+  margin-top: 1.3rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--line);
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.creed__copyright {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+/* ao imprimir, mostrar tudo */
+@media print {
+  .creed-tools { display: none; }
+  .creed__body { display: block !important; }
+}
+
 /* ---------- Placeholder de imagem ---------- */
 
 .placeholder {
