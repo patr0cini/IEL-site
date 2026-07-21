@@ -678,6 +678,67 @@ a:hover { color: var(--accent-dark); }
   color: var(--ink-soft);
 }
 
+/* referência clicável dentro da lista de passagens */
+.ref {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--accent);
+  cursor: help;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+}
+.ref:hover { color: var(--accent-dark); text-decoration-style: solid; }
+.ref:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* janela com o texto bíblico */
+.versiculo {
+  position: absolute;
+  z-index: 60;
+  max-width: min(30rem, calc(100vw - 2rem));
+  padding: 0.9rem 1.1rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  box-shadow: 0 12px 32px rgba(33, 30, 25, 0.16);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.versiculo[hidden] { display: none; }
+.versiculo p { margin: 0 0 0.6em; }
+.versiculo p:last-of-type { margin-bottom: 0; }
+.versiculo b {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.15em;
+}
+.versiculo__mais { color: var(--ink-soft); }
+
+/* seta a apontar para a referência */
+.versiculo::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -6px;
+  border: 6px solid transparent;
+  border-top-color: var(--bg);
+  bottom: -12px;
+  filter: drop-shadow(0 1px 0 var(--line));
+}
+.versiculo--abaixo::after {
+  bottom: auto;
+  top: -12px;
+  border-top-color: transparent;
+  border-bottom-color: var(--bg);
+  filter: drop-shadow(0 -1px 0 var(--line));
+}
+
 /* ao imprimir, mostrar tudo */
 @media print {
   .creed-tools { display: none; }

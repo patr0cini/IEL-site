@@ -30,6 +30,17 @@ Os ficheiros publicados são criados na pasta `_site/`.
 
 Os ficheiros `.md` são documentos Markdown: os títulos começam com `#`, subtítulos com `##` e parágrafos são separados por uma linha vazia.
 
+## Passagens bíblicas em "No que Cremos"
+
+Na página da confissão de fé, cada referência mostra o texto bíblico ao passar o rato (ou ao tocar, no telemóvel). O texto usado é a **Bíblia Livre**, que está em domínio público.
+
+Os versículos vivem em `src/assets/data/versiculos.json` e são gerados a partir das referências da própria página. **Se acrescentar ou alterar referências bíblicas, é preciso gerar o ficheiro de novo:**
+
+1. Descarregue `BLIVRE.json` das [Bíblias em formato aberto](https://github.com/damarals/biblias/releases) (a Bíblia completa não fica no repositório por ser demasiado grande).
+2. Corra: `node tools/gerar-versiculos.mjs caminho/para/BLIVRE.json`
+
+Para mudar de tradução, corra o mesmo comando com outro ficheiro — por exemplo `ALM1911.json`. Atenção: só BLIVRE, ALM1911 e TB são de domínio público; as restantes traduções (Almeida Corrigida Fiel, NVI, Bíblia para Todos, etc.) têm direitos reservados e exigem autorização escrita do editor.
+
 ## Publicar um artigo no blog
 
 1. Crie um ficheiro em `src/blog/`, por exemplo `src/blog/uma-nova-noticia.md`.
