@@ -7,6 +7,9 @@ lead: Uma leitura diária para alimentar a vida com Deus.
 
 Este devocional diário e gratuito é oferecido pelo Ministério Fiel e Voltemos ao Evangelho em parceria com o ministério Truth For Life de Alistair Begg.
 
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://fieldigital.com.br/tabs/in%C3%ADcio/podcasts/58251" data-iframely-url="https://iframely.net/TKlgD1hh?theme=light">Devocional Verdade para a Vida — Ministério Fiel Digital</a></div></div>
+<script async src="https://iframely.net/embed.js"></script>
+
 A Palavra de Deus é um presente glorioso. Foi-nos dada pelo nosso Pai a fim de podermos conhecer seu Filho e vivermos no poder do seu Espírito, em obediência à sua verdade.
 
 Vale a pena parar para refletir a respeito dessa realidade: quando lemos a Bíblia, estamos lidando com as palavras do Criador do universo, ditas para sua Criação. É impossível entendermos a nós mesmos, o nosso mundo ou qualquer outra coisa sem a sua Palavra. Ao lermos um jornal, ao tentarmos entender nossa sociedade e ao olharmos para nossa história e para o nosso futuro, é da Bíblia que precisamos se quisermos entender todas essas coisas. A Palavra de Deus é a verdade da qual eu e você precisamos para navegar o dia a dia desta vida e para nos dirigirmos àquele em quem encontramos a vida que realmente é vida.
