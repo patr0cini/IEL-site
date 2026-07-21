@@ -720,6 +720,14 @@ a:hover { color: var(--accent-dark); }
 }
 .versiculo__mais { color: var(--ink-soft); }
 
+.versiculo__fonte {
+  margin: 0.8em 0 0;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--line);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+}
+
 /* seta a apontar para a referência */
 .versiculo::after {
   content: "";

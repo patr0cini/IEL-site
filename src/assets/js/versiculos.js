@@ -51,7 +51,8 @@ if (referencias.length) {
 
     if (!linhas.length) return null;
     const mais = elemento.dataset.mais ? '<span class="versiculo__mais">…</span>' : '';
-    return `${linhas.map((l) => `<p>${l}</p>`).join('')}${mais}`;
+    const fonte = '<p class="versiculo__fonte">a Bíblia para Todos © Sociedade Bíblica de Portugal</p>';
+    return `${linhas.map((l) => `<p>${l}</p>`).join('')}${mais}${fonte}`;
   };
 
   const posicionar = (elemento) => {

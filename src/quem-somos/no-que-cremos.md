@@ -253,7 +253,9 @@ Os filhos, desde o momento da conceção, são bênção e herança do Senhor. O
 
 </div>
 
-<p class="creed__copyright">Copyright © 1999-2001, Comissão Executiva da Convenção Batista do Sul. Todos os direitos reservados.</p>
+<p class="creed__copyright">Confissão de fé: Copyright © 1999-2001, Comissão Executiva da Convenção Batista do Sul. Todos os direitos reservados.</p>
+
+<p class="creed__copyright">Passagens bíblicas: <i>Tradução Interconfessional — a Bíblia para Todos, Edição Comum</i>. © Sociedade Bíblica de Portugal, 1993, 2009. Usadas com autorização.</p>
 
 <script>
   (() => {

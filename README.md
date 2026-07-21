@@ -32,14 +32,21 @@ Os ficheiros `.md` são documentos Markdown: os títulos começam com `#`, subt�
 
 ## Passagens bíblicas em "No que Cremos"
 
-Na página da confissão de fé, cada referência mostra o texto bíblico ao passar o rato (ou ao tocar, no telemóvel). O texto usado é a **Bíblia Livre**, que está em domínio público.
+Na página da confissão de fé, cada referência mostra o texto bíblico ao passar o rato (ou ao tocar, no telemóvel).
 
-Os versículos vivem em `src/assets/data/versiculos.json` e são gerados a partir das referências da própria página. **Se acrescentar ou alterar referências bíblicas, é preciso gerar o ficheiro de novo:**
+O texto é a **Tradução Interconfessional "a Bíblia para Todos", Edição Comum** — © Sociedade Bíblica de Portugal, 1993, 2009 — **usada com autorização da SBP**. Como tem direitos reservados, o texto completo **não** está no repositório: apenas os 1276 versículos citados na confissão, em `src/assets/data/versiculos.json`. A atribuição de direitos aparece na página e em cada janela de versículo, e deve manter-se.
 
-1. Descarregue `BLIVRE.json` das [Bíblias em formato aberto](https://github.com/damarals/biblias/releases) (a Bíblia completa não fica no repositório por ser demasiado grande).
-2. Corra: `node tools/gerar-versiculos.mjs caminho/para/BLIVRE.json`
+**Se acrescentar ou alterar referências bíblicas, é preciso gerar o ficheiro de novo** (a partir do PDF da BPT fornecido pela SBP):
 
-Para mudar de tradução, corra o mesmo comando com outro ficheiro — por exemplo `ALM1911.json`. Atenção: só BLIVRE, ALM1911 e TB são de domínio público; as restantes traduções (Almeida Corrigida Fiel, NVI, Bíblia para Todos, etc.) têm direitos reservados e exigem autorização escrita do editor.
+```bash
+swiftc -O tools/bpt-extrair-runs.swift -o /tmp/extrair
+/tmp/extrair "caminho/para/BPT.pdf" /tmp/runs.tsv
+python3 tools/bpt-gerar-versiculos.py /tmp/runs.tsv
+```
+
+Duas particularidades que o programa já trata: a BPT numera os **Salmos** pela tradição grega (o Salmo 23 hebraico é o 22 na BPT) e **Joel** tem 4 capítulos em vez de 3. As referências da confissão usam a numeração habitual, e a conversão é feita automaticamente.
+
+Se um dia a autorização deixar de existir, há traduções de domínio público (Bíblia Livre, Almeida 1911, Tradução Brasileira) em [Bíblias em formato aberto](https://github.com/damarals/biblias/releases), que podem substituir o texto.
 
 ## Publicar um artigo no blog
 
