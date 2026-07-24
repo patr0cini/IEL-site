@@ -39,20 +39,43 @@ if (referencias.length) {
   };
 
   const montar = (elemento, dados) => {
-    const chaves = elemento.dataset.ref.split(',');
-    const linhas = chaves
+    const versiculos = elemento.dataset.ref
+      .split(',')
       .map((chave) => {
         const texto = dados[chave];
         if (!texto) return null;
         const [livro, capitulo, versiculo] = chave.split('.').map(Number);
-        return `<b>${NOMES[livro - 1]} ${capitulo}:${versiculo}</b> ${texto}`;
+        return { livro, capitulo, versiculo, texto };
       })
       .filter(Boolean);
 
-    if (!linhas.length) return null;
+    if (!versiculos.length) return null;
+
+    // agrupa versículos seguidos (mesmo livro e capítulo, número consecutivo)
+    // num só bloco: uma referência em cima e o texto corrido em baixo.
+    const blocos = [];
+    for (const v of versiculos) {
+      const anterior = blocos[blocos.length - 1];
+      if (anterior
+        && anterior.livro === v.livro
+        && anterior.capitulo === v.capitulo
+        && v.versiculo === anterior.fim + 1) {
+        anterior.fim = v.versiculo;
+        anterior.textos.push(v.texto);
+      } else {
+        blocos.push({ livro: v.livro, capitulo: v.capitulo, inicio: v.versiculo, fim: v.versiculo, textos: [v.texto] });
+      }
+    }
+
+    const html = blocos.map((b) => {
+      const intervalo = b.fim > b.inicio ? `${b.inicio}-${b.fim}` : `${b.inicio}`;
+      const ref = `${NOMES[b.livro - 1]} ${b.capitulo}:${intervalo}`;
+      return `<p><b>${ref}</b> ${b.textos.join(' ')}</p>`;
+    }).join('');
+
     const mais = elemento.dataset.mais ? '<span class="versiculo__mais">…</span>' : '';
     const fonte = '<p class="versiculo__fonte">a Bíblia para Todos © Sociedade Bíblica de Portugal</p>';
-    return `${linhas.map((l) => `<p>${l}</p>`).join('')}${mais}${fonte}`;
+    return `${html}${mais}${fonte}`;
   };
 
   const posicionar = (elemento) => {
