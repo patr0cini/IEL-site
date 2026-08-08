@@ -91,12 +91,29 @@ function expandir(localizador, livro) {
   return { versiculos: [], aberto: true };
 }
 
+// Escapa um texto para uso dentro de uma expressão regular.
+const escaparRegex = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+// Alternância com todos os nomes de livros (variantes incluídas).
+const ALT_LIVROS = NOMES.map(({ nome }) => escaparRegex(nome)).join('|');
+
+// Nas referências em linha, as vírgulas servem dois fins: listar versículos
+// ("14:16,17,26") ou separar referências distintas ("João 1:18, Colossenses
+// 1:15"). Converte só as segundas em ';', para o interpretador as separar.
+function normalizar(texto) {
+  return texto
+    // vírgula antes de "capítulo:versículo" (novo capítulo do mesmo livro)
+    .replace(/,\s*(?=\d+\s*:\s*\d)/g, '; ')
+    // vírgula antes de um nome de livro
+    .replace(new RegExp(`,\\s*(?=(?:${ALT_LIVROS})\\b)`, 'g'), '; ');
+}
+
 // Divide a lista completa em partes: texto solto e referências reconhecidas.
 export function interpretar(texto) {
   const partes = [];
   let livroAtual = null;
 
-  const grupos = texto.split(';');
+  const grupos = normalizar(texto).split(';');
   grupos.forEach((grupo, i) => {
     const bruto = i < grupos.length - 1 ? `${grupo};` : grupo;
     // o ponto final da frase fica fora da referência (mas "ss." pertence-lhe)

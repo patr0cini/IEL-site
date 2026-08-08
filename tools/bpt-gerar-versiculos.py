@@ -52,8 +52,16 @@ def salmo_para_bpt(capitulo, versiculo):
              else 9 if capitulo <= 10
              else capitulo - 1 if capitulo <= 113
              else 113 if capitulo <= 115
-             else capitulo - 1)
+             else capitulo - 1 if capitulo <= 147
+             else capitulo)      # Salmos 148-150 já estão alinhados na BPT
     return grego, versiculo + DESVIO_SALMO.get(capitulo, 0)
+
+
+# Diferenças pontuais de numeração da BPT face às referências da confissão
+# (livro, capítulo, versículo) -> (capítulo, versículo) na BPT.
+EXCECOES = {
+    (47, 13, 14): (13, 13),   # 2 Coríntios: a bênção final é o v.13 na BPT
+}
 
 
 def ler_biblia(caminho_runs):
@@ -119,8 +127,9 @@ def chaves_da_confissao():
       import { readFileSync } from "node:fs";
       const p = readFileSync("src/quem-somos/no-que-cremos.md", "utf-8");
       const c = new Set();
-      for (const b of p.matchAll(/<p class="creed__refs">([\\s\\S]*?)<\\/p>/g))
-        for (const parte of interpretar(b[1]))
+      // As referências estão entre parênteses no meio do texto da confissão.
+      for (const paren of p.matchAll(/\\(([^()]*\\d[^()]*)\\)/g))
+        for (const parte of interpretar(paren[1]))
           if (parte.tipo === "referencia") parte.chaves.forEach((k) => c.add(k));
       console.log([...c].join("\\n"));
     '''
@@ -141,7 +150,9 @@ def main():
     for chave in chaves_da_confissao():
         indice, capitulo, versiculo = map(int, chave.split('.'))
         nome = LIVROS[indice - 1]
-        if indice == 19:                                   # Salmos
+        if (indice, capitulo, versiculo) in EXCECOES:
+            capitulo, versiculo = EXCECOES[(indice, capitulo, versiculo)]
+        elif indice == 19:                                 # Salmos
             capitulo, versiculo = salmo_para_bpt(capitulo, versiculo)
         elif indice == 29:                                 # Joel tem 4 capítulos na BPT
             if capitulo == 2 and versiculo >= 28:

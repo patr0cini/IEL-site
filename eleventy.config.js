@@ -6,23 +6,33 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
 
-  // Torna cada referência bíblica num alvo com o texto do versículo.
-  // O texto vem de src/assets/data/versiculos.json (ver tools/gerar-versiculos.mjs).
+  // Envolve cada referência num troço com o texto do versículo, para
+  // aparecer numa janela ao passar o rato. O texto vem de
+  // src/assets/data/versiculos.json (ver tools/bpt-gerar-versiculos.py).
+  const marcarReferencias = (texto) =>
+    interpretar(texto)
+      .map((parte) => {
+        if (parte.tipo !== "referencia") return parte.texto;
+        const chaves = parte.chaves.join(",");
+        const aberto = parte.aberto ? ' data-mais="1"' : "";
+        return `<button type="button" class="ref" data-ref="${chaves}"${aberto}>${escaparHtml(parte.texto)}</button>`;
+      })
+      .join("");
+
   eleventyConfig.addTransform("referenciasBiblicas", function (conteudo) {
     if (!this.page.outputPath?.endsWith(".html")) return conteudo;
 
+    // Dentro do corpo de cada artigo da confissão, as referências vivem em
+    // parênteses no meio do texto. Envolve as que forem reconhecidas.
     return conteudo.replace(
-      /<p class="creed__refs">([\s\S]*?)<\/p>/g,
-      (todo, interior) => {
-        const partes = interpretar(interior)
-          .map((parte) => {
-            if (parte.tipo !== "referencia") return parte.texto;
-            const chaves = parte.chaves.join(",");
-            const aberto = parte.aberto ? ' data-mais="1"' : "";
-            return `<button type="button" class="ref" data-ref="${chaves}"${aberto}>${escaparHtml(parte.texto)}</button>`;
-          })
-          .join("");
-        return `<p class="creed__refs">${partes}</p>`;
+      /(<div class="creed__body">)([\s\S]*?)(<\/div>\s*<\/details>)/g,
+      (bloco, abre, corpo, fecha) => {
+        const novo = corpo.replace(/\(([^()]*\d[^()]*)\)/g, (paren, interior) => {
+          const partes = interpretar(interior);
+          if (!partes.some((p) => p.tipo === "referencia")) return paren;
+          return `(${marcarReferencias(interior)})`;
+        });
+        return abre + novo + fecha;
       },
     );
   });
