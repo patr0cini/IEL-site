@@ -15,8 +15,8 @@
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="/assets/fonts/fraunces-latin-63f1654d.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/inter-latin-1ab1ad55.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/fonts.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/fonts.css?v={{ assets.fonts }}">
+  <link rel="stylesheet" href="/assets/css/style.css?v={{ assets.style }}">
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
@@ -25,9 +25,9 @@
     {{ content | safe }}
   </main>
   {% include "partials/footer.njk" %}
-  <script src="/assets/js/nav.js" defer></script>
-  <script src="/assets/js/contact.js" defer></script>
-  <script src="/assets/js/hero.js" defer></script>
-  <script src="/assets/js/versiculos.js" defer></script>
+  <script src="/assets/js/nav.js?v={{ assets.nav }}" defer></script>
+  <script src="/assets/js/contact.js?v={{ assets.contact }}" defer></script>
+  <script src="/assets/js/hero.js?v={{ assets.hero }}" defer></script>
+  <script src="/assets/js/versiculos.js?v={{ assets.versiculos }}" defer></script>
 </body>
 </html>
