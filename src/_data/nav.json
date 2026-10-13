@@ -6,6 +6,8 @@
     "children": [
       { "title": "Sobre", "url": "/quem-somos/sobre/" },
       { "title": "História", "url": "/quem-somos/historia/" },
+      { "title": "O Evangelho", "url": "/quem-somos/o-evangelho/" },
+      { "title": "Crenças Fundamentais", "url": "/quem-somos/crencas-fundamentais/" },
       { "title": "No que Cremos", "url": "/quem-somos/no-que-cremos/" },
       { "title": "Ministérios", "url": "/quem-somos/ministerios/" }
     ]
